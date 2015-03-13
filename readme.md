@@ -4,12 +4,14 @@ At Railscamp X it became clear there is a gap in the current HTTP specification.
 
 There are many ways for a developer to screw up their implementation, but no code to share the nature of the error with the end user.
 
-We humbly suggest the following status codes are included in the HTTP spec in the 7XX range.
+We humbly suggest the following status codes to be included in the HTTP spec in the 7XX range.
 
   * 70X - Inexcusable
     - 701 - Meh
     - 702 - Emacs
     - 703 - Explosion
+    - 704 - Goto Fail
+    - 705 - I wrote the code and missed the necessary validation by an oversight (see 795)
   * 71X - Novelty Implementations
     - 710 - PHP
     - 711 - Convenience Store
@@ -25,6 +27,7 @@ We humbly suggest the following status codes are included in the HTTP spec in th
     - 726 - It's a feature, not a bug
     - 727 - 32 bits is plenty
   * 73X - Fucking
+    - 730 - Fucking Bower
     - 731 - Fucking Rubygems
     - 732 - Fucking Unic💩de
     - 733 - Fucking Deadlocks
@@ -50,6 +53,8 @@ We humbly suggest the following status codes are included in the HTTP spec in th
     - 753 - Syntax Error
     - 754 - Too many semi-colons
     - 755 - Not enough semi-colons
+    - 756 - Insufficiently polite
+    - 757 - Excessively polite
     - 759 - Unexpected T_PAAMAYIM_NEKUDOTAYIM
   * 76X - Substance-Affected Developer
     - 761 - Hungover
@@ -78,10 +83,13 @@ We humbly suggest the following status codes are included in the HTTP spec in th
     - 784 - Management, obviously
     - 785 - TPS Cover Sheet not attached
     - 786 - Try it now
+    - 787 - Further Funding Required
+    - 788 - Designer's final designs weren't
   * 79X - Internet crashed
     - 791 - The Internet shut down due to copyright restrictions.
     - 792 - Climate change driven catastrophic weather event
     - 793 - Zombie Apocalypse
     - 794 - Someone let PG near a REPL
+    - 795 - #heartbleed (see 705)
     - 797 - This is the last page of the Internet. Go back
     - 799 - End of the world
